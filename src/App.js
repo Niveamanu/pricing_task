@@ -60,17 +60,13 @@ function App() {
         }
     ]
 
-    return ( <
-            div className = "App" >
+    return ( < div className = "App" >
             <
             div className = "home" >
             <
             div className = "cards" > {
                 details.map((item) => < Details data = { item }
-                    />)} < /
-                    div > <
-                    /div> < /
-                    div >
+                    />)} </div > < /div> </div >
                 );
             }
 

@@ -6,7 +6,7 @@ function Details(props) {
         <
         div className = "card" >
         <
-        div className = "pricing py-5" >
+        div className = "pricing py-5 " >
         <
         p className = "cardTitle text-center" > { props.data.t1 } < /p> <
         p class = "text-center" >
@@ -40,8 +40,8 @@ function Details(props) {
         /div> <
         div class = "d-grid" >
         <
-        div className = "btn btn btn-primary text-uppercase text-center" > Button < /div></div > < /div> <
-        /div>
+        div className = "btn btn btn-primary text-uppercase text-center" > Button < /div></div > < /div> < /
+        div >
 
 
 
